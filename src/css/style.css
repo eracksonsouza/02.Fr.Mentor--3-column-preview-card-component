@@ -1,0 +1,111 @@
+html{
+    background-color: var(--cor-background-headline-botao);
+    max-width: 1440px;
+    height: 100%;
+}
+
+main {
+    max-height: 100vh;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+.modelo {
+    color: var(--cor-background-headline-botao);
+    font-family: "Big Shoulders Display", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+
+.descricao{
+    color: var(--cor-texto-paragrafos);
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+.container-carros {
+    width: 700px;
+    height: 450px;
+}
+
+.sedans{
+    background-color: var(--cor-div-sedans);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.sedans img {
+    height: 60px;
+    width: 70px;
+}
+
+.suvs {
+    background-color: var(--cor-div-suvs);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.suvs img {
+    height: 60px;
+    width: 70px;
+}
+
+.luxury {
+    background-color: var(--cor-div-luxuxy);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.luxury img {
+    height: 60px;
+    width: 70px;
+}
+
+a {
+    width: 120px;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid var(--cor-background-headline-botao);
+    border-radius: 50px;
+    color: var(--cor-background-headline-botao);
+    text-align: center;
+}
+
+.button {
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    justify-content: center;
+    transition: 0.5s;
+
+}
+
+.sedans .button:hover {
+    background-color: var(--cor-background-headline-botao);
+    color: var(--cor-div-sedans);
+}
+
+.suvs .button:hover {
+    background-color: var(--cor-background-headline-botao);
+    color: var(--cor-div-suvs);
+}
+
+.luxury .button:hover {
+    background-color: var(--cor-background-headline-botao);
+    color: var(--cor-div-luxuxy);
+}

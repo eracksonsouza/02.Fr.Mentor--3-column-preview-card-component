@@ -1,0 +1,34 @@
+@media (max-width: 720px) {
+    body {
+        max-width: 1440px;
+        height: 1440px;
+    }
+    main {
+        background-color: var(--cor-background-headline-botao);
+        max-width: 100vw;
+        height: 100vh;
+
+    }
+    section {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 60px;
+    }
+
+    .card {
+        gap: 60px;
+        height: 550px;
+        width: 350px;
+        display: flex;
+        justify-content: space-around; 
+    }
+
+    .card img {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .modelo, .descricao {
+        padding: 20px;
+    }
+}
